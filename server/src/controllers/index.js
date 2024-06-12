@@ -1,0 +1,13 @@
+module.exports.authController = require('./auth.controller');
+module.exports.roleController = require('./role.controller');
+module.exports.userController = require('./user.controller');
+module.exports.shiftController = require('./shift.controller');
+module.exports.transactionController = require('./transaction.controller');
+module.exports.fareController = require('./fare.controller');
+module.exports.laneMasterController = require('./laneMaster.controller');
+module.exports.laneDeviceController = require('./laneDevice.controller');
+module.exports.commonController = require('./common.controller');
+module.exports.reportController = require('./report.controller');
+module.exports.vehicleController = require('./vehicle.controller');
+module.exports.dashboardController = require('./dashboard.controller')
+module.exports.dashboardController = require('./dashboard.controller')
