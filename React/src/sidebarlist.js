@@ -1,0 +1,107 @@
+import Icon from "@mui/material/Icon";
+const routes = [
+  {
+    module_id:1,
+    type: "collapse",
+    name: "Dashboard",
+    key: "dashboard",
+    ref: "false",
+    icon: <Icon>home</Icon>,
+    route: "/dashboard",
+  },
+  {
+    module_id:2,
+    type: "collapse",
+    name: "Transaction Validate",
+    key: "transaction-validator",
+    ref: "true",
+    icon: <Icon>checklist</Icon>,
+    route: "/transaction-validator",
+  },
+  {
+    module_id:3,
+    type: "collapse",
+    name: "Reports",
+    key: "reports",
+    ref: "true",
+    icon: <Icon>receipt_long</Icon>,
+    route: "/reports",
+  },
+  {
+    module_id:4,
+    type: "collapse",
+    name: "Transaction Cancellation",
+    key: "transaction-cancelllation",
+    ref: "true",
+    icon: <Icon>paid</Icon>,
+    route: "/transaction-cancelllation",
+  },
+  {
+    module_id:5,
+    type: "collapse",
+    name: "Cash Up",
+    key: "cashup",
+    ref: "true",
+    icon: <Icon>calculate</Icon>,
+    route: "/cashup",
+  },
+  {
+    module_id:6,
+    type: "collapse",
+    name: "Shift Management",
+    key: "shifts",
+    ref: "true",
+    icon: <Icon>work</Icon>,
+    route: "/shifts",
+  },
+  {
+    module_id:7,
+    type: "collapse",
+    name: "Role Management",
+    key: "roles",
+    ref: "true",
+    icon: <Icon>manageAccounts</Icon>,
+    route: "/roles",
+  },
+  {
+    module_id:8,
+    type: "collapse",
+    name: "User Management",
+    key: "users",
+    ref: "true",
+    icon: <Icon>engineering</Icon>,
+    route: "/users",
+  },
+  {
+    module_id:9,
+    type: "collapse",
+    name: "Configuration",
+    icon: <Icon>person</Icon>,
+    key: "configurator",
+    children: [
+      {
+        childName: "Vehicle Class Creation",
+        childIcon:<Icon>remove</Icon>,
+        childRoute: "/vehicle-class-creation",
+        childKey: "vehicle-class-creation"
+      },
+      {
+        childName: "Fare Creation",
+        childIcon:<Icon>remove</Icon>,
+        childRoute: "/fare-creation",
+        childKey: "fare-creation",
+      },
+    ]
+  },
+  // {
+  //   module_id:10,
+  //   type: "collapse",
+  //   name: "Current Transaction",
+  //   key: "current-transaction",
+  //   ref: "true",
+  //   icon: <Icon>receipt</Icon>,
+  //   route: "/current-transaction",
+  // },
+];
+
+export default routes;

@@ -1,0 +1,77 @@
+{
+  "name": "material-dashboard-2-react",
+  "version": "2.2.0",
+  "private": true,
+  "author": "Hsquare Creators",
+  "description": "React version of Material Dashboard By Hsquare Creators",
+  "dependencies": {
+    "@emotion/cache": "11.10.8",
+    "@emotion/react": "11.10.8",
+    "@emotion/styled": "11.10.8",
+    "@mui/icons-material": "5.11.16",
+    "@mui/material": "^5.15.5",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.14",
+    "@mui/x-date-pickers": "^6.19.3",
+    "@reduxjs/toolkit": "^2.0.1",
+    "axios": "^1.6.3",
+    "chart.js": "4.3.0",
+    "chroma-js": "2.4.2",
+    "formik": "^2.4.5",
+    "js-cookie": "^3.0.5",
+    "moment": "^2.30.1",
+    "prop-types": "15.8.1",
+    "qs": "^6.11.2",
+    "react": "18.2.0",
+    "react-chartjs-2": "5.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^9.0.4",
+    "react-router-dom": "^6.11.0",
+    "react-scripts": "5.0.1",
+    "react-swipeable-views": "^0.14.0",
+    "react-table": "7.8.0",
+    "react-toastify": "^10.0.3",
+    "react-zoom-pan-pinch": "^3.3.0",
+    "rsuite": "^5.53.0",
+    "styled-components": "^6.1.8",
+    "stylis": "4.1.4",
+    "yup": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "8.39.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "prettier": "^3.1.1"
+  },
+  "overrides": {
+    "svgo": "3.0.2"
+  }
+}
